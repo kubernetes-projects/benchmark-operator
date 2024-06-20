@@ -1,4 +1,4 @@
-FROM quay.io/operator-framework/ansible-operator:v1.32.0
+FROM quay.io/operator-framework/ansible-operator:v1.34.3
 USER root
 
 COPY requirements.yml ${HOME}/requirements.yml
